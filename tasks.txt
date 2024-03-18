@@ -1,0 +1,8 @@
+all subtasks done
+
+tasks to do 18/03 to 28/03
+
+find a method to target a specific formula using ID or smtg else to set the annyang commands for each formula
+
+need to find a way to pass transcription to mathlive 
+

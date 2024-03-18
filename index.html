@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Include Editor.js CSS -->
+        <link href="index.css" rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest/dist/editor.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <h1>editor</h1>
+        <!-- Placeholder for Editor.js -->
+        <div id="editor-container" style="height: 100vh;background-color: white;">
+            <div>
+                <h2 id="title1">deletion</h1>
+                    <!-----not working---->
+                <button id="1">delete next char</button>
+                <button id="2">delete backward</button>
+                <button id="3"> delete forward</button>
+                <button id="4">delete to mathfield end</button>
+                <button id="5"> delete All</button>
+            </div>
+            <div>
+                <h2 id="title2">navigation</h2>
+                <button id="6">move to next char</button>
+                <button id="7">move to previous char</button>
+                <button id="8">move up</button>
+                <button id="9">move down</button>
+                    <!-----not working---->
+                <button id="10">move to mathfield start</button>
+                    <!-----not working---->
+                <button id="11">move to mathfield end</button>
+                <button id="12">move to next word</button>
+                <button id="13">move to previous word</button>
+            </div>
+            <div id="clipboard">
+                <h2 id="title3">clipboard</h2>
+                <button id="14">redo</button>
+                <button id="15">undo</button>
+                <button id="16">cut</button>
+                <button id="17">copy</button>
+                <button id="18">paste</button>
+            </div>
+            <div>
+                <h2 id="title4">selection</h2>
+                <button id="19">select group</button>
+                <button id="20">select all</button>
+                <button id="21">extend to Mathfield start</button>
+                <button id="22">extend to Mathfield end</button>
+            </div>
+            <div>
+                <h2 id="title5">scrolling</h2>
+                <button id="23" >scroll to start</button>
+                <button id="24">scroll to end</button>
+                <button id="25">scroll Intoview</button>
+            </div>
+            <div>
+                <h2>insertion v4</h2>
+                <button id="insert">insert char</button>
+            </div>
+        </div>
+    </body>
+    
+    <!-- Include MathLive -->
+    <script src="//unpkg.com/mathlive"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+    <script src="formula-math.js"></script>
+    <script src="index.js"></script>
+</html>
